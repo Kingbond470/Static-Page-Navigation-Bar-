@@ -1,0 +1,119 @@
+﻿/* global css */
+*
+{
+    margin: 5px;
+    padding: 5px;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(hero-bcg.jpeg);
+    height: 120vh;
+    background-size:  cover;
+    background-position:center;
+}
+
+/* navigation bar */
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block; 
+}
+
+.main-nav li a
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid green;
+}
+
+.main-nav li a:hover
+{
+    border:5px solid yellow;
+}
+/* image */
+
+.logo img
+{
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* quote and button */
+,hero
+{
+    padding-top: 35px;
+    position: absolute;
+    width: 1400px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: black;
+    text-transform: uppercase;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 425px;
+}
+
+.button
+{
+    margin-top: 6px;
+    margin-left: 700px;
+}
+
+.btn
+{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+/* bottom button */
+.btn-one
+{
+    background-color: skyblue;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two 
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: red;
+    transition: all 0.5s ease-in;
+}
